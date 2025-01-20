@@ -25,6 +25,15 @@ Please, ensure that you see the [guidance](./versions_compatibility_supportabili
 
 Install [kubebuilder](https://sigs.k8s.io/kubebuilder):
 
+
+### Via `go install`
+
+```bash
+go install github.com/kubernetes-sigs/kubebuilder@latest
+```
+
+### Via `Github release`
+
 ```bash
 # download kubebuilder and install locally.
 curl -L -o kubebuilder "https://go.kubebuilder.io/dl/latest/$(go env GOOS)/$(go env GOARCH)"
